@@ -25,7 +25,7 @@ Show available images.
 
 Run a container of the image 'Image_name'. It will go donwload it from docker hub if it is the image is not on the host machine.
 
-`docker stop $(docker ps)`:
+`docker stop $(docker ps -a -q)`:
 
 Stops all containers.
 
